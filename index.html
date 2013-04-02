@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Daily newspaper of the University of California, Los Angeles."/>
+	<title>Daily Bruin | All Stories</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'/>
+	<link rel="shortcut icon" href="image/favicon.ico"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+<!--
+<div id="story">
+
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+<div id="fade-back"></div>
+-->
+
+<img id="banner" src="image/nameplate_alpha_invert.png"/>
+
+<div id="wrap">
+<header>
+
+	<h1>Trending articles&nbsp;|</h1>
+	<nav>
+		<ul>
+			<li><a id="current-view" href="#">all <span class="down-arrow">&#x25BC;</span></a></li> <!-- &#709; alt char - open down arrow that displays smaller in OSX than Windows -->
+				<ul id="menu">
+					<li><a id="select-news" href="#"><span class="swatch news"></span>news</a></li>
+					<li><a id="select-sports" href="#"><span class="swatch sports"></span>sports</a></li>
+					<li><a id="select-aande" href="#"><span class="swatch arts"></span>a&amp;e</a></li>
+					<li><a id="select-opinion" href="#"><span class="swatch opinion"></span>opinion</a></li>
+					<li><a id="select-multimedia" href="#"><span class="swatch multimedia"></span>multimedia</a></li>
+					<li><a id="select-prime" href="#"><span class="swatch prime"></span>prime</a></li>
+					<li><a id="select-blogs" href="#"><span class="swatch blogs"></span>blogs</a></li>
+					<!--<li><a href="#"><span class="swatch classifieds"></span>classifieds</a></li>-->
+				</ul>
+		</ul>
+	</nav>
+
+</header>
+
+<div id="main">
+<a href="http://dailybruin.com/2013/01/18/qa-rapper-macklemore-talks-thrifting-hip-hop-and-politics/">
+	<div class="tile"; style="background-image: url(image/300x/rapper.jpg)"><h3 class="arts">arts &amp; entertainment</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Q&A: Rapper Macklemore talks thrifting, hip-hop and politics</h1>
+				<h2>Macklemore & Ryan Lewis will perform tonight to a sold-out crowd at the Ackerman Grand Ballroom.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/uc-president-to-step-down-at-the-end-of-august/">
+	<div class="tile"; style="background-image: url(image/300x/president.jpg)"><h3 class="blogs">blog</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>UC President to step down at the end of August</h1>
+				<h2>Yudof cited &#8220;taxing health issues&#8221; and a desire to &#8220;make a change in (his) professional lifestyle&#8221;.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/photo-gallery-mens-basketball-defeats-oregon-state-beavers-74-64/">
+	<div class="tile"; style="background-image: url(image/300x/basketball.jpg)"><h3 class="sports">sports</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Men&#8217;s basketball defeats Oregon State Beavers 74-64</h1>
+				<h2>Freshman forward Shabazz Muhammad rebounded in a big way Thursday night with a game-high 21 points.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/ucla-basketball-legend-bill-walton-opens-up-on-pain-perseverance/">
+	<div class="tile"; style="background-image: url(image/300x/coach.jpg)"><h3 class="sports">sports</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>UCLA basketball legend Bill Walton opens up on pain, perseverance</h1>
+				<h2>The Hall of Famer recounted his chronic struggles with injury and the surgery that saved his life.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/17/professor-utilizes-social-media-as-a-teaching-tool/">
+	<div class="tile"; style="background-image: url(image/300x/professor.jpg)"><h3 class="news">news</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Professor utilizes social media as a teaching tool</h1>
+				<h2>Professor Jerome Camal is using Twitter and Spotify in his History of Rock and Roll course to engage with students.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/cris-velasco-discusses-film-video-game-music/">
+	<div class="tile"; style="background-image: url(image/300x/sunglasses.jpg)"><h3 class="arts">arts &amp; entertainment</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Cris Velasco discusses film, video game music</h1>
+				<h2>UCLA alumnus Cris Velasco composed award-winning music for video games such as the <em>Mass&nbsp;Effect</em> series.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/mens-volleyball-set-to-overcome-slow-starts-recent-losses/">
+	<div class="tile"; style="background-image: url(image/300x/volleyball.jpg)"><h3 class="sports">sports</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Men&#8217;s volleyball set to overcome slow starts, recent losses</h1>
+				<h2>Junior middle blocker Spencer Rowe and the UCLA men's volleyball team have an upcoming rematch with No. 8 UCSB.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/17/police-investigate-possible-connection-between-recent-attempted-murder-sexual-assault-cases/">
+	<div class="tile"; style="background-image: url(image/300x/predator.jpg)"><h3 class="news">news</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Police investigate possible connection between recent attempted murder, sexual assault cases</h1>
+				<h2>Sketch of man in connection with Jan. 7 attempted sexual assault of UCLA student.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/uc-regents-discuss-university-future-with-state-leaders-at-board-meeting/">
+	<div class="tile"; style="background-image: url(image/300x/discussion.jpg)"><h3 class="news">news</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>UC Regents discuss University future with state leaders at board meeting</h1>
+				<h2>Speaker John Perez, Gov. Jerry Brown and University of California President Mark Yudof.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/17/patel-university-must-prepare-students-for-all-emergencies/">
+	<div class="tile"; style="background-image: url(image/300x/fire.jpg)"><h3 class="opinion">opinion</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Patel: University must prepare students for all emergencies</h1>
+				<h2>Whenever there is a fire drill in the dorms, I sigh.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/movie-review-the-last-stand/">
+	<div class="tile"; style="background-image: url(image/300x/movie.jpg)"><h3 class="arts">arts &amp; entertainment</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Movie review: <em>The Last Stand</em></h1>
+				<h2>When he says he&#8217;ll be back, he means it. In this action comedy, Arnold Schwarzenegger returns to the big screen in a leading role for the first time since 2003.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+<a href="http://dailybruin.com/2013/01/18/mens-tennis-to-get-first-taste-of-competition-in-sherwood-collegiate-cup/">
+	<div class="tile"; style="background-image: url(image/300x/tennis.jpg)"><h3 class="sports">sports</h3>
+		<div class="tile-decoration">
+			<div class="caption">
+				<h1>Men&#8217;s tennis to get first taste of competition in Sherwood Collegiate Cup</h1>
+				<h2>Redshirt senior Alex Brigham and the men's tennis team will put their No. 3 ranking to the test this weekend.</h2>
+			</div>
+		</div>
+	</div>
+</a>
+
+</div>
+</div>
+
+<footer>
+	Design by <a target="blank" href="http://about.me/harrisonliddiard">Harrison Liddiard</a>. License <a target="blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">CC BY-NC-SA</a>.
+</footer>
+
+</body>
+
+</html>
